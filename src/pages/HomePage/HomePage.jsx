@@ -17,7 +17,7 @@ const HomePage = () => (
         <div className='directory-menu'>
             <div className='menu-item'>
                 <div className='content'>
-                    <h1>HATS</h1>
+                    <h1>JACKETS</h1>
                     <span>SHOW NOW</span>
                 </div>
             </div>
@@ -26,7 +26,7 @@ const HomePage = () => (
         <div className='directory-menu'>
             <div className='menu-item'>
                 <div className='content'>
-                    <h1>HATS</h1>
+                    <h1>SNEAKERS</h1>
                     <span>SHOW NOW</span>
                 </div>
             </div>
