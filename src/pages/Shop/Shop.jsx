@@ -1,16 +1,26 @@
 import React, { Component } from 'react';
 import SHOP_DATA from './shop.data';
+import Collection from '../../components/Collection/Collection'
 
 class ShopPage extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            collection: SHOP_DATA,
+            collections: SHOP_DATA
         };
     }
     render() {
-       return <div>SHOP PAGE</div>;
+        const {collections} = this.state;
+        return  (
+            <div className='shop-page'>
+                {
+                    collections.map( ({ id, ...otherCollectionProps }) => (
+                        <Collection key={id} { ...otherCollectionProps } />
+                    ))
+                }
+            </div> 
+        );
     }
 }
 
