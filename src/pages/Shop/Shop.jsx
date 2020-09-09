@@ -3,14 +3,14 @@ import SHOP_DATA from './shop.data';
 
 class ShopPage extends Component {
     constructor(props) {
-        super();
+        super(props);
 
         this.state = {
-            collection: SHOP_DATA;
-        }
+            collection: SHOP_DATA,
+        };
     }
     render() {
-        <div>SHOP PAGE</div>
+       return <div>SHOP PAGE</div>;
     }
 }
 
