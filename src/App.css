@@ -2,6 +2,5 @@ body {
     font-family: 'Open Sans Condensed';
     padding: 20px 60px;
     background: steelblue;
-    background-image: linear-gradient(slategray, cyan, dodgerblue);
-
+    background-image: linear-gradient(dodgerblue, cyan, steelblue);
 }
