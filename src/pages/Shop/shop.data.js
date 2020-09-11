@@ -79,57 +79,57 @@ const SHOP_DATA = [
       {
         id: 10,
         name: 'Adidas NMD',
-        // imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        imageUrl: "/images/shop-img/sneakers/adidas-nmd.png", 
+        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+        // imageUrl: "/images/shop-img/sneakers/adidas-nmd.png", 
         price: 220
       },
       {
         id: 11,
         name: 'Adidas Yeezy',
-        // imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        imageUrl: "/images/shop-img/sneakers/yeezy.png",
+        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+        // imageUrl: "/images/shop-img/sneakers/yeezy.png",
         price: 280
       },
       {
         id: 12,
         name: 'Black Converse',
-        // imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        imageUrl: "/images/shop-img/sneakers/black-converse.png",
+        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+        // imageUrl: "/images/shop-img/sneakers/black-converse.png",
         price: 110
       },
       {
         id: 13,
         name: 'Nike White AirForce',
-        // imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        imageUrl: "/images/shop-img/sneakers/white-nike-high-tops.png",
+        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+        // imageUrl: "/images/shop-img/sneakers/white-nike-high-tops.png",
         price: 160
       },
       {
         id: 14,
         name: 'Nike Red High Tops',
-        // imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        imageUrl: "/images/shop-img/sneakers/nikes-red.png",
+        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
+        // imageUrl: "/images/shop-img/sneakers/nikes-red.png",
         price: 160
       },
       {
         id: 15,
         name: 'Nike Brown High Tops',
-        // imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-        imageUrl: "/images/shop-img/sneakers/nike-brown.png",
+        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
+        // imageUrl: "/images/shop-img/sneakers/nike-brown.png",
         price: 160
       },
       {
         id: 16,
         name: 'Air Jordan Limited',
-        // imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        imageUrl: "/images/shop-img/sneakers/nike-funky.png",
+        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
+        // imageUrl: "/images/shop-img/sneakers/nike-funky.png",
         price: 190
       },
       {
         id: 17,
         name: 'Timberlands',
-        // imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-        imageUrl: "/images/shop-img/sneakers/timberlands.png",
+        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
+        // imageUrl: "/images/shop-img/sneakers/timberlands.png",
         price: 200
       }
     ]
@@ -142,36 +142,36 @@ const SHOP_DATA = [
       {
         id: 18,
         name: 'Black Jean Shearling',
-        // imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        imageUrl: "/images/shop-img/jackets/black-shearling.png",
+        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+        // imageUrl: "/images/shop-img/jackets/black-shearling.png",
         price: 125
       },
       {
         id: 19,
         name: 'Blue Jean Jacket',
-        // imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        imageUrl: "/images/shop-img/jackets/blue-jean-jacket.png",
+        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+        // imageUrl: "/images/shop-img/jackets/blue-jean-jacket.png",
         price: 90
       },
       {
         id: 20,
         name: 'Grey Jean Jacket',
-        // imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        imageUrl: "/images/shop-img/jackets/grey-jean-jacket.png",
+        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+        // imageUrl: "/images/shop-img/jackets/grey-jean-jacket.png",
         price: 90
       },
       {
         id: 21,
         name: 'Brown Shearling',
-        // imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        imageUrl: "/images/shop-img/jackets/brown-shearling.png",
-        price: 165
+        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+        // imageUrl: "/images/shop-img/jackets/brown-shearling.png",
+        // price: 165
       },
       {
         id: 22,
         name: 'Tan Trench',
-        // imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        imageUrl: "/images/shop-img/jackets/brown-trench.png",
+        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
+        // imageUrl: "/images/shop-img/jackets/brown-trench.png",
         price: 185
       }
     ]
