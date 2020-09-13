@@ -6,9 +6,8 @@
     line-height: 50px;
     padding: 0 35px 0 35px;
     font-size: 15px;
-    background-color: steelblue;
-    opacity: 0.5;
-    color: gold;
+    background-color: black;
+    color: white;
     text-transform: uppercase;
     font-family: 'Open Sans Condensed';
     font-weight: bolder;
@@ -16,21 +15,19 @@
     cursor: pointer;
   
     &:hover {
-      background-color: darkblue;
-      opacity: 0.8;
-      color: gold;
+      background-color: slategrey;
+      color: black;
       border: 1px solid black;
     }
-
+  
     &.google-sign-in {
-        background-color: #4285f4;
+      background-color: #4285f4;
+      color: white;
+  
+      &:hover {
+        background-color: #357ae8;
         color: gold;
-
-        &:hover {
-          background-color: #357ae8;
-          opacity: 0.9;
-          border: none;
-        }
+        border: none;
+      }
     }
   }
-  
