@@ -6,9 +6,9 @@
     line-height: 50px;
     padding: 0 35px 0 35px;
     font-size: 15px;
-    background-color: gold;
+    background-color: steelblue;
     opacity: 0.5;
-    color: black;
+    color: gold;
     text-transform: uppercase;
     font-family: 'Open Sans Condensed';
     font-weight: bolder;
@@ -16,9 +16,9 @@
     cursor: pointer;
   
     &:hover {
-      background-color: slateblue;
+      background-color: darkblue;
       opacity: 0.8;
-      color: lightblue;
+      color: gold;
       border: 1px solid black;
     }
 
