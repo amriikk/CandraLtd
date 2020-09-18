@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import CustomBtn from '../Custom-Btn';
+import CustomBtn from '../../components/Custom-Btn/Custom-Btn';
 import FormInput from '..//Form-Input/Form-Input';
-import { auth, createUSerProfileDocument } from '../../Firebase/Firebase.Utils';
+import { auth, createUserProfileDocument } from '../../Firebase/Firebase.Utils';
 
 import './Sign-Up.scss';
 
@@ -22,7 +22,7 @@ class SignUp extends Component {
 
         const { displayName, email, password, confirmPassword } = this.state;
 
-        if(password != confirmPassword) {
+        if(password !== confirmPassword) {
             alert("Passwords don't match!");
             return;
         }
@@ -30,7 +30,7 @@ class SignUp extends Component {
         try {
             const { user } = await auth.createUserWithEmailAndPassword(email, password);
 
-            await createUSerProfileDocument(user, { displayName });
+            await createUserProfileDocument(user, { displayName });
 
             this.setState({
                 displayName: '',
@@ -49,7 +49,7 @@ class SignUp extends Component {
         this.setState({ [name]: value });
     };
 
-    
+
     render() {
         const { displayName, email, password, confirmPassword } = this.state;
         return(
