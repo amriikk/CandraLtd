@@ -11,7 +11,7 @@ const Header = ({ currentUser }) => (
             <Logo className='logo' />
         </Link>
         <Link className='option' to='/'>
-            <h1 style={{color: 'slategray'}}>SURYA + CANDRA</h1>
+            <h1 style={{color: 'slategray'}}>CANDRA</h1>
         </Link>
         <div className='options'>
             <Link className='option' to='/shop'>
