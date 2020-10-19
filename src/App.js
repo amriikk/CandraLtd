@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import ShopPage from './pages/Shop/Shop';
 import LoginPage from './pages/LoginPage/LoginPage';
+import ContactPage from './pages/ContactPage/ContactPage'
 import Header from './components/Header/Header';
 import { auth, createUserProfileDocument } from './Firebase/Firebase.Utils';
 
@@ -49,6 +50,7 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
+          <Route path='/contact' component={ContactPage} />
           <Route path='/login' component={LoginPage} />
         </Switch>
       </div>
