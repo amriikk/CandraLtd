@@ -13,15 +13,16 @@ const Header = ({ currentUser }) => (
         <Link className='option' to='/'>
             <h1 style={{color: 'slategray'}}>CANDRA</h1>
         </Link>
+        
         <div className='options'>
             <Link className='option' to='/shop'>
-                SHOP
+                shop
             </Link>
             <Link className='option' to='/contact'>
-                CONTACT
+                contact
             </Link>
-            <Link className='option' to='/resources'>
-                RESOURCES
+            <Link className='option' to='/resource'>
+                links
             </Link>
             {
                 currentUser ? 

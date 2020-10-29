@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage/HomePage';
 import ShopPage from './pages/Shop/Shop';
 import LoginPage from './pages/LoginPage/LoginPage';
 import ContactPage from './pages/ContactPage/ContactPage'
+import ResourcePage from './pages/ResourcePage/ResourcePage'
 import Header from './components/Header/Header';
 import { auth, createUserProfileDocument } from './Firebase/Firebase.Utils';
 
@@ -51,6 +52,7 @@ class App extends Component {
           <Route exact path='/' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route path='/contact' component={ContactPage} />
+          <Route path='/resource' component={ResourcePage} />
           <Route path='/login' component={LoginPage} />
         </Switch>
       </div>
