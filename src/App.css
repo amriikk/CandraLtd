@@ -2,12 +2,12 @@ body {
     font-family: 'Open Sans Condensed';
     padding: 20px 60px;
     background: lightblue;
-    /* background-image: linear-gradient(dodgerblue, cyan, steelblue); */
+    /* background-image: linear-gradient(slategray, cyan, steelblue); */
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: darkblue;
 }
 
 * {

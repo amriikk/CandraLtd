@@ -4,7 +4,8 @@ import './ResourcePage.scss'
 
 const ResourcePage = () => (
     <div>
-        <h1>Resource Links</h1>
+        <h1>Resources</h1>
+        <span>Follow us on Instagram @Surya.io</span>
     </div>
 )
 
