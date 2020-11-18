@@ -13,13 +13,6 @@ import { setCurrentUser } from './redux/user/user.actions';
 import './App.css';
 
 class App extends Component {
-  // constructor() {
-  //   super();
-
-  //   this.state = {
-  //     currentUser: null
-  //   }
-  // }
 
   unSubscribeFromAuth = null;
 
@@ -59,9 +52,9 @@ class App extends Component {
                  render= { () => 
                     this.props.currentUser ? ( 
                       <Redirect to='/' />
-                      ) : (
+                    ) : (
                       <LoginPage />
-                      )
+                    )
                 } 
           />
         </Switch>
