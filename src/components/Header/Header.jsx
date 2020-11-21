@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 import { auth } from '../../Firebase/Firebase.Utils';
 import CartIcon from '../Cart-Icon/Cart-Icon';
+import Cart from '../Cart-Dropdown/Cart';
 
 
 import './Header.scss';
@@ -35,8 +36,9 @@ const Header = ({ currentUser }) => (
             }
             <CartIcon />
         </div>
+        <Cart />
     </div>
-)
+);
 
 const mapStateToProps = state => ({
     currentUser: state.user.currentUser
