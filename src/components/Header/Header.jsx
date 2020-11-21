@@ -5,6 +5,7 @@ import { ReactComponent as Logo } from '../../assets/crown.svg';
 import { auth } from '../../Firebase/Firebase.Utils';
 import CartIcon from '../Cart-Icon/Cart-Icon';
 
+
 import './Header.scss';
 
 const Header = ({ currentUser }) => (
