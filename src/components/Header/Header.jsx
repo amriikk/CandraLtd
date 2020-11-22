@@ -9,13 +9,13 @@ import Cart from '../Cart-Dropdown/Cart';
 
 import './Header.scss';
 
-const Header = ({ currentUser }) => (
+const Header = ({ currentUser, hidden }) => (
     <div className='header'>
         <Link className='logo-container' to='/'>
             <Logo className='logo' />
         </Link>
         <Link className='option' to='/'>
-            <h1 style={{color: 'slategray'}}>CANDRA</h1>
+            <h1 style={{color: 'slategray'}}>CANDRA LTD.</h1>
         </Link>
 
         <div className='options'>
@@ -36,12 +36,16 @@ const Header = ({ currentUser }) => (
             }
             <CartIcon />
         </div>
-        <Cart />
+        {
+            hidden ? null :
+            <Cart />
+        }
     </div>
 );
 
-const mapStateToProps = state => ({
-    currentUser: state.user.currentUser
+const mapStateToProps = ({user: { currentUser }, cart: { hidden } }) => ({
+    currentUser,
+    hidden
 });
 
 export default connect(mapStateToProps)(Header);

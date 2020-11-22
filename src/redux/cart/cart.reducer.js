@@ -1,4 +1,4 @@
-import from './cart.types';
+import CartActionTypes from './cart.types';
 
 const INITIAL_STATE = {
     hidden: true
