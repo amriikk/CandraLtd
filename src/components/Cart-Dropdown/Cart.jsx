@@ -1,5 +1,6 @@
 import React from 'react';
 import CustomBtn from '../Custom-Btn/Custom-Btn';
+import CartItem from '../Cart-Item/Cart-Item';
 
 import './Cart.scss';
 
