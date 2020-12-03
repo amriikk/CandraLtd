@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux'
+
 import CustomBtn from '../Custom-Btn/Custom-Btn';
 import CartItem from '../Cart-Item/Cart-Item';
 
