@@ -5,6 +5,7 @@ import './ContactPage.scss'
 const ContactPage = () => (
     <div className='contact'>
         <h1>Welcome to our Contact Page</h1>
+        <br></br>
         <h2>Feel free to leave a comment or suggestion to info@candra.io</h2>
         <span>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
