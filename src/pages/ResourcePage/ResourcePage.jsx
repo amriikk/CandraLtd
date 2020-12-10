@@ -5,9 +5,9 @@ import './ResourcePage.scss'
 const ResourcePage = () => (
     <div>
         <h1>Resources</h1>
-        <span>Follow us on Instagram @ojasa_</span>
-        <span>Follow us on Instagram @ojasa_</span>
-        <span>Follow us on Instagram @ojasa_</span>
+        <span>Follow us on Instagram @ojasa_</span><br/><br/>
+        <span>Follow us on Instagram @ojasa_</span><br/><br/>
+        <span>Follow us on Instagram @ojasa_</span><br/><br/>
     </div>
 )
 
