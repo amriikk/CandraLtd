@@ -1,5 +1,3 @@
-const { store } = require("../store");
-
 const INITIAL_STATE = {
     sections: [
 
