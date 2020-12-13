@@ -25,7 +25,8 @@ const Cart = ( { cartItems, history, dispatch } ) => (
             history.push('/checkout');
             dispatch(toggleCartHidden());
             }}> 
-            GO TO CHECKOUT</CustomBtn>
+            GO TO CHECKOUT
+        </CustomBtn>
     </div>
 );
 
