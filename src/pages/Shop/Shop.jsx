@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import Collection from '../../components/Collection/Collection'
+import { connect } from 'react-redux';
+import { createStructuredSelector } from 'reselect'
+import Collection from '../../components/Collection/Collection';
+import { selectShoptItem} from '../../redux/shop/shop.selectors';
+
 
 const ShopPage = ({ collections }) => (
     <div className='shop-page'>
@@ -8,5 +12,9 @@ const ShopPage = ({ collections }) => (
         ))}
     </div> 
 );
+
+const mapStateToProps = createStructuredSelector({
+    
+})
 
 export default ShopPage;
