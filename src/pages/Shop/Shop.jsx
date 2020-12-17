@@ -1,5 +1,5 @@
 import React from 'react';
-import CollectionOverview from '../../components/CollectionOverview/CollectionOverview';
+import CollectionOverview from '../../components/Collections-Overview/Collections-Overview';
 
 
 const ShopPage = ({ collections }) => (
