@@ -3,11 +3,17 @@ body {
     padding: 20px 60px;
     /* background: deepskyblue; */
     background-image: linear-gradient(deepskyblue, cyan, slategray);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 a {
     text-decoration: none;
     color: darkblue;
+}
+
+h1 {
+    color: navy;
 }
 
 * {
