@@ -4,6 +4,7 @@ body {
     /* background: deepskyblue; */
     background-image: linear-gradient(deepskyblue, cyan, slategray);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
