@@ -2,7 +2,7 @@ body {
     font-family: 'Open Sans Condensed';
     padding: 20px 60px;
     /* background: deepskyblue; */
-    background-image: linear-gradient(slategray, cyan, deepskyblue);
+    background-image: linear-gradient(deepskyblue, cyan, slategray);
 }
 
 a {

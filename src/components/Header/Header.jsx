@@ -18,7 +18,7 @@ const Header = ({ currentUser, hidden }) => (
             <Logo className='logo' />
         </Link>
         <Link className='option' to='/'>
-            <h1 style={{color: 'slategray'}}>CANDRA LTD. 2313</h1>
+            <h1 style={{color: 'slategray'}}>CANDRA LTD.</h1>
         </Link>
 
         <div className='options'>
