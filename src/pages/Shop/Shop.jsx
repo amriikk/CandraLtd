@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import CollectionOverview from '../../components/Collections-Overview/Collections-Overview';
+import CategoryPage from '../CategoryPage/CategoryPage';
 
 
 const ShopPage = ({ match }) => {
@@ -8,6 +9,7 @@ const ShopPage = ({ match }) => {
     return (
     <div className='shop-page'>
         <Route exact path={`${match.path}`} component={CollectionOverview} />
+        <Route exact path={`${match.path}/:categoryID`} component={CategoryPage} />
     </div> 
 )};
 
