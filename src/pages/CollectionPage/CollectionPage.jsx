@@ -3,10 +3,13 @@ import React from 'react';
 
 import './CollectionPage.scss';
 
-const CollectionPage = () => (
+const CollectionPage = ({ match }) => {
+    console.log(match.params.collectionId)
+    return (
     <div className='collection-page'>
-        <h2>CATEGORY PAGE</h2>
+        <h2>COLLECTION PAGE</h2>
     </div>
-);
+    )
+};
 
 export default CollectionPage;

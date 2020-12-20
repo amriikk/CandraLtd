@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import CollectionOverview from '../../components/Collections-Overview/Collections-Overview';
-import CategoryPage from '../CollectionPage/CollectionPage';
+import CollectionPage from '../CollectionPage/CollectionPage';
 
 
 const ShopPage = ({ match }) => {
@@ -9,7 +9,7 @@ const ShopPage = ({ match }) => {
     return (
     <div className='shop-page'>
         <Route exact path={`${match.path}`} component={CollectionOverview} />
-        <Route exact path={`${match.path}/:collectionId`} component={CategoryPage} />
+        <Route exact path={`${match.path}/:collectionId`} component={CollectionPage} />
     </div> 
 )};
 
