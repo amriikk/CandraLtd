@@ -1,6 +1,7 @@
 import React from 'react';
+import { connect } from 'react-redux';
 // import CollectionItem from '../../components/Collection-Item/Collection-Item';
-
+import { selectCollection, selectCollections } from '../../redux/shop/shop.selectors';
 import './CollectionPage.scss';
 
 const CollectionPage = ({ match }) => {
@@ -11,5 +12,9 @@ const CollectionPage = ({ match }) => {
     </div>
     )
 };
+
+const mapStateToProps = (state, ownProps) => ({
+    collection: selectCollection(ownProps.match.params.collectionId)
+})
 
 export default CollectionPage;
