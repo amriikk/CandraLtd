@@ -4,7 +4,7 @@ import React from 'react';
 import './CollectionPage.scss';
 
 const CollectionPage = () => (
-    <div className='collection'>
+    <div className='collection-page'>
         <h2>CATEGORY PAGE</h2>
     </div>
 );
