@@ -3,7 +3,7 @@ import StripeCheckout from 'react-stripe-checkout';
 
 const StripeCheckoutBtn = ({ price }) => {
     const priceForStripe = price * 100;
-    const publishableKey = key;
+    const publishableKey = 'key';
 
     const onToken = token => {
         console.log(token);
@@ -11,7 +11,7 @@ const StripeCheckoutBtn = ({ price }) => {
     }
 
     return (
-        <StripeCheckoutBtn
+        <StripeCheckout
             label='Pay Now'
             name='Candra Ltd.'
             billingAddress
