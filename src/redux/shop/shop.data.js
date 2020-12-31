@@ -100,36 +100,36 @@ const SHOP_DATA = {
       {
         id: 13,
         name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        // imageUrl: "/images/shop-img/sneakers/white-nike-high-tops.png",
+        // imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+        imageUrl: "/images/shop-img/sneakers/white-nike-high-tops.png",
         price: 160
       },
       {
         id: 14,
         name: 'Nike Red High Tops',
-        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        // imageUrl: "/images/shop-img/sneakers/nikes-red.png",
+        // imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
+        imageUrl: "/images/shop-img/sneakers/nikes-red.png",
         price: 160
       },
       {
         id: 15,
         name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-        // imageUrl: "/images/shop-img/sneakers/nike-brown.png",
+        // imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
+        imageUrl: "/images/shop-img/sneakers/nike-brown.png",
         price: 160
       },
       {
         id: 16,
         name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        // imageUrl: "/images/shop-img/sneakers/nike-funky.png",
+        // imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
+        imageUrl: "/images/shop-img/sneakers/nike-funky.png",
         price: 190
       },
       {
         id: 17,
         name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-        // imageUrl: "/images/shop-img/sneakers/timberlands.png",
+        // imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
+        imageUrl: "/images/shop-img/sneakers/timberlands.png",
         price: 200
       }
     ]
