@@ -79,22 +79,22 @@ const SHOP_DATA = {
       {
         id: 10,
         name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        // imageUrl: "/images/shop-img/sneakers/adidas-nmd.png", 
+        // imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+        imageUrl: "/images/shop-img/sneakers/adidas-nmd.png", 
         price: 220
       },
       {
         id: 11,
         name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        // imageUrl: "/images/shop-img/sneakers/yeezy.png",
+        // imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+        imageUrl: "/images/shop-img/sneakers/yeezy.png",
         price: 280
       },
       {
         id: 12,
         name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        // imageUrl: "/images/shop-img/sneakers/black-converse.png",
+        // imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+        imageUrl: "/images/shop-img/sneakers/black-converse.png",
         price: 110
       },
       {
