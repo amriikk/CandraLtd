@@ -6,7 +6,7 @@ const ContactPage = () => (
     <div className='contact'>
         <h1>Welcome to our Contact Page</h1>
         <br></br>
-        <h2>Feel free to leave a comment or suggestion to info@candra.io</h2>
+        <h2>Feel free to leave a comment or email to info@candra.io</h2>
         <span>
             I'm baby schlitz kickstarter wolf leggings enamel pin craft beer 
             narwhal banh mi four dollar toast lomo kombucha. Coloring book 
