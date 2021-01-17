@@ -8,13 +8,14 @@ const ContactPage = () => (
         <br></br>
         <h2>Feel free to leave a comment or suggestion to info@candra.io</h2>
         <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, 
-            sunt in culpa qui officia deserunt mollit anim id est laborum.
+            I'm baby schlitz kickstarter wolf leggings enamel pin craft beer 
+            narwhal banh mi four dollar toast lomo kombucha. Coloring book 
+            blue bottle man braid thundercats tofu. Roof party 3 wolf moon 
+            la croix, master cleanse copper mug tbh fixie iceland chartreuse 
+            flexitarian godard kitsch beard jianbing. Subway tile sustainable 
+            you probably haven't heard of them twee live-edge roof party selfies 
+            blog bitters. Dreamcatcher distillery chartreuse stumptown pickled 
+            hashtag crucifix 3 wolf moon.
         </span>
         <link rel="stylesheet" href="www.instagram.com"/>
     </div>
