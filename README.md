@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Candra Ltd.
+### John Trujillo -- 2020
 
-## Available Scripts
+<h2 align="center">Introduction</h2>
 
-In the project directory, you can run:
+<h2 align="center">Getting Started</h2>
 
-### `npm start`
+<h2 align="center">Technolgies + Techniques Utilized</h2>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+##### :small_blue_diamond: HTML5
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+##### :small_blue_diamond: CSS
 
-### `npm test`
+##### :small_blue_diamond: node.js
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##### :small_blue_diamond: Express
 
-### `npm run build`
+##### :small_blue_diamond: Vanilla JavaScript
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Redux
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Redux Saga
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Asynchronous Redux
 
-### `npm run eject`
+- React Hooks
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Context API
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React Suspense + React Lazy
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Firebase
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Stripe API
 
-## Learn More
+- Styled-Components
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- GraphQL
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Apollo
 
-### Code Splitting
+- PWAs
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- React Performance
 
-### Analyzing the Bundle Size
+- React Design Patterns
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Testing with Jest, Enzyme and Snapshot testing
 
-### Making a Progressive Web App
+- React Best Practices
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Persistance + Session Storage
 
-### Advanced Configuration
+- State Normalization
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+<h2 align="center">Road Hiccups</h2>
 
-### Deployment
+<h2 align="center">Future Scope</h2>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

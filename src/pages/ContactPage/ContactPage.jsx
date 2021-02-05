@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import './ContactPage.scss'
+// import './ContactPage.css';
 
 const ContactPage = () => (
     <div className='contact'>
