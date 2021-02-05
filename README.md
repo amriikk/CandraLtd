@@ -7,13 +7,11 @@
 
 <h2 align="center">Technolgies + Techniques Utilized</h2>
 
+##### :small_blue_diamond: React.js
+
 ##### :small_blue_diamond: HTML5
 
-##### :small_blue_diamond: CSS
-
-##### :small_blue_diamond: node.js
-
-##### :small_blue_diamond: Express
+##### :small_blue_diamond: SCSS
 
 ##### :small_blue_diamond: Vanilla JavaScript
 
@@ -43,11 +41,7 @@
 
 ##### :small_blue_diamond: React Performance
 
-##### :small_blue_diamond: React Design Patterns
-
 ##### :small_blue_diamond: Testing with Jest, Enzyme and Snapshot testing
-
-##### :small_blue_diamond: React Best Practices
 
 ##### :small_blue_diamond: Persistance + Session Storage
 
