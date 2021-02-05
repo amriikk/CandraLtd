@@ -15,11 +15,13 @@ Candra Ltd was build as a massive e-commerce application similar to Shopify usin
 
 <h2 align="center">Technolgies + Techniques Utilized</h2>
 
-##### :small_blue_diamond: React.js
+| . | . | . |
+| ------------ | ------------ | ------------ |
+| ##### :small_blue_diamond: React.js | ##### :small_blue_diamond: HTML5 | ##### :small_blue_diamond: SCSS |
+| . | . | . |
 
-##### :small_blue_diamond: HTML5
 
-##### :small_blue_diamond: SCSS
+
 
 ##### :small_blue_diamond: Vanilla JavaScript
 
