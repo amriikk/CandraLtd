@@ -1,5 +1,5 @@
 # Candra Ltd.
-### John Trujillo -- 2020
+### :large_blue_circle: John Trujillo :large_blue_circle: -- 2020
 
 <h2 align="center">Introduction</h2>
 Candra Ltd was build as a massive e-commerce application similar to Shopify using React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe + more. This is a full stack app (MERN stack), using Firebase.
