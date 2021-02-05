@@ -17,41 +17,41 @@
 
 ##### :small_blue_diamond: Vanilla JavaScript
 
-- Redux
+##### :small_blue_diamond: Redux
 
-- Redux Saga
+##### :small_blue_diamond: Redux Saga
 
-- Asynchronous Redux
+##### :small_blue_diamond: Asynchronous Redux
 
-- React Hooks
+##### :small_blue_diamond: React Hooks
 
-- Context API
+##### :small_blue_diamond: Context API
 
-- React Suspense + React Lazy
+##### :small_blue_diamond: React Suspense + React Lazy
 
-- Firebase
+##### :small_blue_diamond: Firebase
 
-- Stripe API
+##### :small_blue_diamond: Stripe API
 
-- Styled-Components
+##### :small_blue_diamond: Styled-Components
 
-- GraphQL
+##### :small_blue_diamond: GraphQL
 
-- Apollo
+##### :small_blue_diamond: Apollo
 
-- PWAs
+##### :small_blue_diamond: PWAs
 
-- React Performance
+##### :small_blue_diamond: React Performance
 
-- React Design Patterns
+##### :small_blue_diamond: React Design Patterns
 
-- Testing with Jest, Enzyme and Snapshot testing
+##### :small_blue_diamond: Testing with Jest, Enzyme and Snapshot testing
 
-- React Best Practices
+##### :small_blue_diamond: React Best Practices
 
-- Persistance + Session Storage
+##### :small_blue_diamond: Persistance + Session Storage
 
-- State Normalization
+##### :small_blue_diamond: State Normalization
 
 <h2 align="center">Road Hiccups</h2>
 
