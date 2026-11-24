@@ -8,7 +8,7 @@ import ShopPage from './pages/Shop/Shop';
 import LoginPage from './pages/LoginPage/LoginPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 import CheckoutPage from './pages/CheckoutPage/CheckoutPage';
-import ResourcePage from './pages/ResourcePage/ResourcePage';
+import AboutPage from './pages/AboutPage/AboutPage';
 
 import Header from './components/Header/Header';
 import { auth, createUserProfileDocument } from './Firebase/Firebase.Utils';
@@ -53,7 +53,7 @@ class App extends Component {
           <Route path='/shop' component={ShopPage} />
           <Route exact path='/checkout' component={CheckoutPage} />
           <Route path='/contact' component={ContactPage} />
-          <Route path='/resource' component={ResourcePage} />
+          <Route path='/about' component={AboutPage} />
           <Route exact path='/login' 
                  render= { () => 
                     this.props.currentUser ? ( 
