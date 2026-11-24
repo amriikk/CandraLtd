@@ -1,37 +1,55 @@
 # Candra Ltd.
-### :large_blue_circle: John Trujillo :large_blue_circle: -- 2020
 
-<h2 align="center">Introduction</h2>
+A demo clothing store built with React and Redux, first written in 2020 while following COVID lockdowns, and brought back to life in 2026 to run on current tools. It's the starting point for my own small shop of 3D-printed pieces, curated merch and pothos cuttings.
 
-Candra Ltd was built as a massive e-commerce application similar to Shopify using React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe + more.
+**Live demo:** 
 
-###### This is a full stack app (MERN stack), using Firebase.
+![Candra Ltd. home page](docs/home.png)
 
+## What it does
 
-<h2 align="center">Getting Started</h2>
+- **Browse** five collections and their product pages (React Router; the catalog lives in Redux).
+- **Cart:** add items (repeats are grouped), change quantities, remove items. Totals come from memoized Reselect selectors, and the cart survives a page reload (redux-persist).
+- **Accounts:** sign up or sign in with email or Google (Firebase Auth). New users get a profile document in Firestore.
+- **Checkout** in Stripe test mode. Use card `4242 4242 4242 4242`, any future date and any 3-digit CVC. There's no backend yet, so no charge is made: Stripe returns a payment token and the app confirms it.
 
-| [Link to GH Pages](https://#/) :trollface: | 
-| ------------ |
+## Built with
 
-![Candra 1](https://#)
+React 16 · Redux, React Redux, Reselect, redux-persist · React Router 5 · Firebase 8 (Auth + Firestore) · Stripe Checkout (legacy, test mode) · Sass · Create React App 5 · Jest · Vercel
 
-<h2 align="center">Technolgies + Techniques Utilized</h2>
+## Engineering notes
 
-| . | . | . | . |
-| ------------ | ------------ | ------------ | ------------ |
-| :small_blue_diamond: React.js | :small_blue_diamond: HTML5 | :small_blue_diamond: SCSS | :small_blue_diamond: PWAs |
-| :small_blue_diamond: Vanilla JavaScript | :small_blue_diamond: Redux | :small_blue_diamond: Redux Saga | :small_blue_diamond: State Normalization |
-| :small_blue_diamond: Asynchronous Redux | :small_blue_diamond: React Hooks | :small_blue_diamond: Context API | :small_blue_diamond: React Performance |
-| :small_blue_diamond: React Suspense + React Lazy | :small_blue_diamond: Firebase | :small_blue_diamond: Stripe API | :small_blue_diamond: Persistance + Session Storage |
-| :small_blue_diamond: Styled-Components | :small_blue_diamond: GraphQL | :small_blue_diamond: Apollo | :small_blue_diamond: Testing with Jest, Enzyme |
+When I came back to this project, it wouldn't install. What I found and fixed:
 
+- **Old native packages.** `node-sass` 4 only supports up to Node 14, and Firebase 6 pulled in the old native `grpc` package. Neither installs on current Node. I switched to Dart Sass (`sass`), Firebase 8 (plain JavaScript, same API, no code changes needed) and react-scripts 5.
+- **A rename that broke the home page.** While fighting those errors in 2021, `HomePage.scss` got renamed to `HomePage.css`, but the import still asked for `.scss`. I renamed it back.
+- **A filename that only worked on a Mac.** The file was `SIgn-Up.scss` while the code imported `Sign-Up.scss`. macOS ignores letter case in filenames; Linux, where Vercel builds the site, doesn't.
+- **Smaller fixes:** the Redux logger now runs only in development, a leftover `console.log` is gone, the default Create React App test (which could never pass) is replaced with tests for the cart logic, and a Vercel rewrite makes direct links like `/shop/hats` load.
 
-<h2 align="center">Road Hiccups</h2>
+## Run it
 
+You need [Node 24](https://nodejs.org/).
 
+```bash
+git clone https://github.com/amriikk/CandraLtd.git
+cd CandraLtd
+npm install
+npm start
+```
 
-<h2 align="center">Future Scope</h2>
+Run the tests with `npm test`.
 
-- User ability to save cart to User Profile
+The Firebase settings in `src/Firebase/Firebase.Utils.js` are a web-app config, which Firebase designs to be public: access is controlled by the project's security rules. The Stripe key is a publishable test key.
 
-- Dark Theme Toggle
+## Roadmap
+
+- Real payments with Stripe Checkout through a serverless function (the Checkout modal used here is Stripe's legacy version).
+- Save the cart to the user's profile, and add a dark theme.
+
+## Credits
+
+Built following [Complete React Developer](https://zerotomastery.io/courses/learn-react/) by Andrei Neagoie and Yihua Zhang (Zero To Mastery).
+
+## Author
+
+**Jhon Trujillo** · [jotrio.com](https://jotrio.com) · [github.com/amriikk](https://github.com/amriikk)
