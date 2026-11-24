@@ -7,7 +7,7 @@ const StripeCheckoutBtn = ({ price }) => {
 
     const onToken = token => {
         console.log(token);
-        alert('Payment Successful')
+        alert('Test payment received by Stripe. This demo has no backend, so no card is charged.');
     }
 
     return (

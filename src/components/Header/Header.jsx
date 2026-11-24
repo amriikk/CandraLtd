@@ -28,8 +28,8 @@ const Header = ({ currentUser, hidden }) => (
             <Link className='option' to='/contact'>
                 contact
             </Link>
-            <Link className='option' to='/resource'>
-                links
+            <Link className='option' to='/about'>
+                about
             </Link>
             {
                 currentUser ? 

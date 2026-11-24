@@ -1,24 +1,15 @@
 import React from 'react';
 
-// import './ContactPage.css';
+import './ContactPage.scss';
 
 const ContactPage = () => (
     <div className='contact'>
-        <h1>Welcome to our Contact Page</h1>
-        <br></br>
-        <h2>Feel free to leave a comment or email to info@candra.io</h2>
-        <span>
-            I'm baby schlitz kickstarter wolf leggings enamel pin craft beer 
-            narwhal banh mi four dollar toast lomo kombucha. Coloring book 
-            blue bottle man braid thundercats tofu. Roof party 3 wolf moon 
-            la croix, master cleanse copper mug tbh fixie iceland chartreuse 
-            flexitarian godard kitsch beard jianbing. Subway tile sustainable 
-            you probably haven't heard of them twee live-edge roof party selfies 
-            blog bitters. Dreamcatcher distillery chartreuse stumptown pickled 
-            hashtag crucifix 3 wolf moon.
-        </span>
-        <link rel="stylesheet" href="www.instagram.com"/>
+        <h1>Contact</h1>
+        <p>
+            Questions about the shop or this project? Email me at{' '}
+            <a href='mailto:amriikk@gmail.com'>amriikk@gmail.com</a>.
+        </p>
     </div>
-)
+);
 
-export default ContactPage
+export default ContactPage;
