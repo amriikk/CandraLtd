@@ -2,7 +2,7 @@
 
 A demo clothing store built with React and Redux, first written in 2020 while following COVID lockdowns, and brought back to life in 2026 to run on current tools. It's the starting point for my own small shop of 3D-printed pieces, curated merch and pothos cuttings.
 
-**Live demo:** 
+**Live demo:** https://candra-ltd.vercel.app/
 
 ![Candra Ltd. home page](docs/home.png)
 
